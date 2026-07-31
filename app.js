@@ -7,7 +7,7 @@ app.use(cors());
 
 app.get("/",(req,res)=>{
     console.log("Received");
-    res.send("Hello Akash It is Working.");
+    res.send("Hello Akash It is Working. Hoped it will work.");
 })
 
 app.listen(3000 , ()=>{
