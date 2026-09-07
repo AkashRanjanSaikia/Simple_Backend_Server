@@ -7,7 +7,7 @@ app.use(cors());
 
 app.get("/",(req,res)=>{
     console.log("Received");
-    res.send("Hello Akash");
+    res.send("Hello Akash Ranjan Saikia");
 })
 
 app.listen(3000 , ()=>{
