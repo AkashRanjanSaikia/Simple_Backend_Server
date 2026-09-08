@@ -10,6 +10,10 @@ app.get("/",(req,res)=>{
     res.send("Hello Akash Ranjan Saikia New addition");
 })
 
+app.get("/health",(req,res)=>{
+    res.status(200).send("ok");
+})
+
 app.listen(3000 , ()=>{
     console.log("Server is Running");
 })
