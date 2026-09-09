@@ -7,12 +7,12 @@ app.use(cors());
 
 app.get("/",(req,res)=>{
     console.log("Received");
-    res.send("This is a test msg");
+    res.send("This is a test msg without health check point");
 })
 
-app.get("/health",(req,res)=>{
-    res.status(200).send("ok");
-})
+// app.get("/health",(req,res)=>{
+//     res.status(200).send("ok");
+// })
 
 app.listen(3000 , ()=>{
     console.log("Server is Running");
