@@ -7,7 +7,7 @@ app.use(cors());
 
 app.get("/",(req,res)=>{
     console.log("Received");
-    res.send("This is a test msg without health check point trigger 2");
+    res.send("This is a test msg without health check point trigger 3");
 })
 
 // app.get("/health",(req,res)=>{
